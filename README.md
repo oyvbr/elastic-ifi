@@ -17,7 +17,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 ### Configure Kibana
 #### Set Index Pattern
 - In Kibana, navigate to **Management** and click **Index Patterns**.
-- Enter `accident` in the **Index pattern** field. 
+- Enter `accidents` in the **Index pattern** field. 
 - Click **Next step**
 - In **Configure settings**, select **timestamp** in the **Time Filter field name** dropdown menu.
 
