@@ -19,7 +19,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 - Click **Next step**
 - In **Configure settings**, select **@timestamp** in the **Time Filter field name** dropdown menu.
 
-####Get data from further back than 15 minutes
+#### Get data from further back than 15 minutes
 - Navigate to **Discover**
 - In the top right corner, press **Last 15 minutes**
 - In the **Time Range** menu, press **Relative**
