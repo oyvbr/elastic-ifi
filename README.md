@@ -10,8 +10,8 @@
 Verify the installation by running `docker version` in terminal/PowerShell
 
 ### Run the Docker Image
-- Run: `docker run --rm -p 5601:5601 -p 9200:9200 oyvindbratvedt/elastic-ifi:1` in terminal/PowerShell in order to start the Docker image.
-- The image will start Elasticsearch, index the ~289000 traffic accidents, and start Kibana. Soon after the accidents are finished indexing, you can open Kibana in your browser. 
+- Run: `docker run --rm -p 5601:5601 -p 9200:9200 oyvindbratvedt/elastic-ifi` in terminal/PowerShell in order to start the Docker image.
+- The image will start Elasticsearch, index the ~290000 traffic accidents, and start Kibana. Soon after the accidents are finished indexing, you can open Kibana in your browser. 
 - Open Kibana in your browser on http://localhost:5601
 
 ### Configure Kibana
@@ -27,7 +27,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 - In the **Time Range** menu, press **Relative**
 - Change the **From** field to 50 years ago
 - Click **Go**
-- Now you should see all the accidents in the dataset
+- Now you should see all the 289610 accidents in the dataset 
 
 
 ### Kibana
