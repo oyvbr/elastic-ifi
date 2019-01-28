@@ -3,7 +3,7 @@
 ### Download and install Docker: 
 - Create a Docker account if you don't have one
 
-- https://www.docker.com/get-started (for Windows and Mac)
+- https://www.docker.com/get-started (for Windows and Mac). Windows users need Hyper-V in order to run Docker. This is automatically enabled when installing Docker Desktop on Windows. If you need to enable it manually, have a look at this link: https://docs.docker.com/machine/drivers/hyper-v/https://docs.docker.com/machine/drivers/hyper-v/
 
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04 (for Ubuntu)
 
