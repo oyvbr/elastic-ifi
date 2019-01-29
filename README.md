@@ -11,7 +11,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 
 ### Run the Docker Image
 - Run: `docker run --rm -p 5601:5601 -p 9200:9200 oyvindbratvedt/elastic-ifi` in terminal/PowerShell in order to start the Docker image.
-- The image will start Elasticsearch, index the ~290000 traffic accidents, and start Kibana. Soon after the accidents are finished indexing, you can open Kibana in your browser. 
+- The image will start Elasticsearch., index the ~290000 traffic accidents, and start Kibana. You will see some errors in the console initially while it waits for Elasticsearch to be fully started. Soon after the accidents are finished indexing, you can open Kibana in your browser. 
 - Open Kibana in your browser on http://localhost:5601
 
 ### Configure Kibana
@@ -20,6 +20,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 - Enter `accidents` in the **Index pattern** field. 
 - Click **Next step**
 - In **Configure settings**, select **timestamp** in the **Time Filter field name** dropdown menu.
+- Clicl **Create index pattern**
 
 #### Get data from further back than 15 minutes
 - Navigate to **Discover**
