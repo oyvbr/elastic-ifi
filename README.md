@@ -20,7 +20,7 @@ Verify the installation by running `docker version` in terminal/PowerShell
 - Enter `accidents` in the **Index pattern** field. 
 - Click **Next step**
 - In **Configure settings**, select **timestamp** in the **Time Filter field name** dropdown menu.
-- Clicl **Create index pattern**
+- Click **Create index pattern**
 
 #### Get data from further back than 15 minutes
 - Navigate to **Discover**
