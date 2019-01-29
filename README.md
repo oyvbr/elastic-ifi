@@ -32,3 +32,6 @@ Verify the installation by running `docker version` in terminal/PowerShell
 
 ### Kibana
 Now you can play around with the data in Kibana. Go to **Visualize** where you can create coordinate maps, graphs and plots visualizing the accidents. 
+
+# Tasks
+https://github.com/oyvbr/elastic-ifi/blob/master/tasks.md
