@@ -9,7 +9,7 @@
 3. **Create a visualisation showing the average vehicle age grouped by year of the accident**
 	* Save the visualization and add it to the dashboard
 
-4. **Create a vertical bar chart showing number of injuries grouped by year**
+4. **Create a vertical bar chart showing sum of injuries grouped by year**
 	* Compare it against average injuries grouped by year. What does this difference indicate?
 	* Save the visualization and add it to the dashboard
 
@@ -17,11 +17,11 @@
 
 6. **How many men have crashed in a roundabout on a Monday between 08.00-08.59?**
 
-7. **Create a tag cloud showing the surface conditions**
+7. **Create a tag cloud showing the count of surface conditions**
 	* Save the visualization and add it to the dashboard
 
 8. **Find the sum of seriously injured grouped by speed limit**
-	* Compare this with number of accidents grouped by speed limit
+	* Compare this with count of accidents grouped by speed limit
 
 9. **Bonus: Find the accident of Petter Northug in discover**
 
